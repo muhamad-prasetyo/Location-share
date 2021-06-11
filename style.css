@@ -1,0 +1,95 @@
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: white;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 0;
+    background: #fdeff2;
+    color: #e43c5c;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.section-title h3 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-title h3 span {
+    color: #3c71e4;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.contact button[type="submit"] {
+    background: #3c71e4;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    margin: 0px 2px 0px;
+}
+
+.contact button[type="submit"]:hover {
+    background: #3c71e4;
+}
+
+.contact-btns {
+    margin-top: 3rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+@media (min-width: 992px) {
+    .container {
+    max-width: 960px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+    max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+    max-width: 920px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-title p {
+    width: 50%;
+    }
+}
